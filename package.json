@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/menu-test",
-  "version": "1.0.0-alpha.1",
+  "version": "2.0.0",
   "main": "dist-server/index.js",
   "browser": "client/index.js",
   "things-factory": true,
@@ -23,8 +23,8 @@
     "migration:revert": "node ./node_modules/typeorm/cli.js migration:revert"
   },
   "dependencies": {
-    "@things-factory/menu-base": "^1.0.0-alpha.1",
-    "@things-factory/shell": "^1.0.0-alpha.1"
+    "@things-factory/menu-base": "^2.0.0",
+    "@things-factory/shell": "^2.0.0"
   },
   "devDependencies": {}
 }
